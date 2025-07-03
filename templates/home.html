@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block tytul %}SKLEP{% endblock %}
+
+{% block tresc %}
+<strong>Witaj {{ user }}, miło cię znowu widzieć</strong>
+
+<ul>
+{% for id, item in produkty.items() %}
+<li>
+    <strong>NAZWA: {{ item['nazwa'] }}</strong>
+    <strong>CENA: {{ item['cena'] }}zł</strong>
+    <a href="{{ url_for('dodaj_do_koszyka', id_produktu=id) }}">[DODAJ DO KOSZYKA]</a>
+</li>
+
+{% endfor %}
+</ul>
+
+<a href="{{ url_for('koszyk') }}">[SPRAWDŹ KOSZYK]</a><br>
+<a href="{{ url_for('logout') }}">[WYLOGUJ]</a>
+{% endblock %}

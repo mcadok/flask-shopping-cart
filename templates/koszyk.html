@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block tytul %}KOSZYK{% endblock %}
+
+{% block tresc %}
+<ul>
+    {% for item in zawartosc %}
+    <li>
+        <strong>NAZWA - {{ item.nazwa }}</strong>
+        <strong>CENA - {{ item.cena }}zł</strong>
+        <strong>ILOŚĆ - {{ item.ilosc }}szt.</strong>
+        <strong>KWOTA CAŁKOWITA - {{ item.cena_razy_ilosc }}zł</strong>
+    </li><br>
+    {% endfor %}
+</ul>
+
+<strong>SUMA: {{ suma }} PLN</strong></p><br>
+
+<a href="{{ url_for('home') }}">[WRÓĆ DO ZAKUPÓW]</a><br>
+<a href="{{ url_for('wyczysc_koszyk') }}">[WYCZYŚĆ KOSZYK]</a>
+{% endblock %}

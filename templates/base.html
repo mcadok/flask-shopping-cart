@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block tytul %}tytul_przykladowy{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% block tresc %}tresc_przykladowa{% endblock %}
+
+   <div id="flash-messages">
+    {% for mess in get_flashed_messages() %}
+        <p>{{ mess }}</p>
+    {% endfor %}
+    </div>
+
+</body>
+</html>

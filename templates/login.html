@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block tytul %}LOGIN{% endblock %}
+
+{% block tresc %}
+<form method="POST">
+    {{ form.hidden_tag() }}
+
+    <strong>LOGIN:{{ form.login }}</strong>
+    <strong>HASŁO:{{ form.haslo }}</strong>
+    {{ form.zatwierdz }}
+
+</form>
+{% endblock %}
