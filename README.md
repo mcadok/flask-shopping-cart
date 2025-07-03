@@ -1,8 +1,7 @@
-
-#🛒 Flask Shopping Cart
+# 🛒 Flask Shopping Cart
 This is a simple Flask project created as part of my learning journey with Flask web development. 🚀
 
-##🛠 Technologies Used
+## 🛠 Technologies Used
 🐍 Python
 
 🌶 Flask
@@ -15,7 +14,7 @@ This is a simple Flask project created as part of my learning journey with Flask
 
 🔐 Sessions for user login and shopping cart management
 
-##✨ Features
+## ✨ Features
 👤 User login with session management
 
 🛍 Display products and add them to a shopping cart stored in session
@@ -26,7 +25,7 @@ This is a simple Flask project created as part of my learning journey with Flask
 
 ✅ Form validation with Flask-WTF and WTForms
 
-##🚀 How to Run
+## 🚀 How to Run
 Make sure you have Python 3 installed by running:
 python --version
 
