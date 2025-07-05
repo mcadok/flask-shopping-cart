@@ -11,16 +11,12 @@ USERS = {
 }
 
 produkty = {
-    'produkt_1': {'nazwa': 'mleko', 'cena': 5},
-    'produkt_2': {'nazwa': 'piwo', 'cena': 10},
-    'produkt_3': {'nazwa': 'woda', 'cena': 2},
-    'produkt_4': {'nazwa': 'chleb', 'cena': 4},
-    'produkt_5': {'nazwa': 'jajko', 'cena': 2},
-    'produkt_6': {'nazwa': 'masło', 'cena': 8},
-    'produkt_7': {'nazwa': 'ser', 'cena': 15},
-    'produkt_8': {'nazwa': 'jabłko', 'cena': 3},
-    'produkt_9': {'nazwa': 'banan', 'cena': 3},
-    'produkt_10': {'nazwa': 'pomarańcza', 'cena': 4},
+    'produkt_1': {'nazwa': 'WODA', 'cena': 3},
+    'produkt_2': {'nazwa': 'MIÓD', 'cena': 50},
+    'produkt_3': {'nazwa': 'PIWO', 'cena': 5},
+    'produkt_4': {'nazwa': 'CHLEB', 'cena': 4},
+    'produkt_5': {'nazwa': 'JAJKO', 'cena': 2},
+    'produkt_6': {'nazwa': 'MASŁO', 'cena': 8}
 }
 
 class Formularz(FlaskForm):
