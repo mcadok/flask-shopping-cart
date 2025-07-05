@@ -46,6 +46,8 @@ python app.py
 Open your browser and visit:
 http://localhost:5000/login
 
+Use login: arek11 and password: qwerty to log in.
+
 🎯 Purpose
 This project helped me practice the fundamentals of Flask, including routing, templates, forms, sessions, and working with user input.
 
