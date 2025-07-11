@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = 'tajny_klucz'
 
 USERS = {
-    'arek11' : 'qwerty'
+    'user_test' : 'qwerty'
 }
 
 produkty = {
